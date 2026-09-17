@@ -7,7 +7,7 @@
     <p class="font-bold">Here are a few things you can do:</p>
 
     <ul>
-      <li>Return to the <a href="{{ .Site.Home.RelPermalink }}">home page</a>.</li>
+      <li>Return to the <a href="{{ .Params.Home.RelPermalink }}">home page</a>.</li>
       <li>
         <a href="https://web.archive.org/web/*/{{ .Permalink | urlize }}"
           >See if the Internet Archive has a copy</a
@@ -19,7 +19,7 @@
       {{- end }}
     </ul>
 
-    {{- with .Site.Author.email }}
+    {{- with .Params.Author.email }}
       <p>
         If you arrived here by following a link on the website, I'd be grateful if you could
         <a href="mailto:{{ . }}">drop me an email</a> to let me know. Thanks a bunch!
