@@ -1,3 +1,4 @@
+@import url("/css/fonts.css");
 /* Background */
 
 .bg {
@@ -1095,7 +1096,7 @@ video {
 }
 
 body {
-  font-family: 'LatoLatinWeb', sans-serif;
+  /* font-family: 'LatoLatinWeb', sans-serif; */
   counter-reset: sidenote-counter;
 }
 
@@ -2314,7 +2315,7 @@ footer a:hover {
 }
 
 .max-w-prose {
-  max-width: 65ch;
+  max-width: 80ch;
 }
 
 .max-w-xs {
@@ -2721,6 +2722,7 @@ footer a:hover {
   transition-duration: 150ms;
 }
 
+/*
 @font-face {
   font-family: 'LatoLatinWebBlack';
 
@@ -2958,6 +2960,7 @@ footer a:hover {
 
   text-rendering: optimizeLegibility;
 }
+*/
 
 @media (min-width: 768px) {
   .md\:prose-lg {
