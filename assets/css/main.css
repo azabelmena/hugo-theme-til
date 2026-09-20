@@ -4,179 +4,122 @@
 @tailwind components;
 @tailwind utilities;
 
+/* spectral-200 - latin */
 @font-face {
-  font-family: 'LatoLatinWebBlack';
-  src:
-    url('../fonts/LatoLatin-Black.woff2') format('woff2'),
-    url('../fonts/LatoLatin-Black.woff') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
   font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
+  font-weight: 200;
+  src: url('../fonts/spectral-v15-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+/* spectral-200italic - latin */
 @font-face {
-  font-family: 'LatoLatinWebBlack';
-  src:
-    url('../fonts/LatoLatin-BlackItalic.woff2') format('woff2'),
-    url('../fonts/LatoLatin-BlackItalic.woff') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
   font-style: italic;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
+  font-weight: 200;
+  src: url('../fonts/spectral-v15-latin-200italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+/* spectral-300 - latin */
 @font-face {
-  font-family: 'LatoLatinWeb';
-  src:
-    url('../fonts/LatoLatin-Bold.woff2') format('woff2'),
-    url('../fonts/LatoLatin-Bold.woff') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
   font-style: normal;
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
+  font-weight: 300;
+  src: url('../fonts/spectral-v15-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+/* spectral-300italic - latin */
 @font-face {
-  font-family: 'LatoLatinWeb';
-  src:
-    url('../fonts/LatoLatin-BoldItalic.woff2') format('woff2'),
-    url('../fonts/LatoLatin-BoldItalic.woff') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
   font-style: italic;
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
+  font-weight: 300;
+  src: url('../fonts/spectral-v15-latin-300italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+/* spectral-regular - latin */
 @font-face {
-  font-family: 'LatoLatinWebHairline';
-  src:
-    url('../fonts/LatoLatin-Hairline.woff2') format('woff2'),
-    url('../fonts/LatoLatin-Hairline.woff') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
   font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
+  font-weight: 400;
+  src: url('../fonts/spectral-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+/* spectral-italic - latin */
 @font-face {
-  font-family: 'LatoLatinWebHairline';
-  src:
-    url('../fonts/LatoLatin-HairlineItalic.woff2') format('woff2'),
-    url('../fonts/LatoLatin-HairlineItalic.woff') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
   font-style: italic;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
+  font-weight: 400;
+  src: url('../fonts/spectral-v15-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+/* spectral-500 - latin */
 @font-face {
-  font-family: 'LatoLatinWebHeavy';
-  src:
-    url('../fonts/LatoLatin-Heavy.woff2') format('woff2'),
-    url('../fonts/LatoLatin-Heavy.woff') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
   font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
+  font-weight: 500;
+  src: url('../fonts/spectral-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+/* spectral-500italic - latin */
 @font-face {
-  font-family: 'LatoLatinWebHeavy';
-  src:
-    url('../fonts/LatoLatin-HeavyItalic.woff2') format('woff2'),
-    url('../fonts/LatoLatin-HeavyItalic.woff') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
   font-style: italic;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
+  font-weight: 500;
+  src: url('../fonts/spectral-v15-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+/* spectral-600 - latin */
 @font-face {
-  font-family: 'LatoLatinWeb';
-  src:
-    url('../fonts/LatoLatin-Italic.woff2') format('woff2'),
-    url('../fonts/LatoLatin-Italic.woff') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/spectral-v15-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* spectral-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
   font-style: italic;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
+  font-weight: 600;
+  src: url('../fonts/spectral-v15-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+/* spectral-700 - latin */
 @font-face {
-  font-family: 'LatoLatinWebLight';
-  src:
-    url('../fonts/LatoLatin-Light.woff2') format('woff2'),
-    url('../fonts/LatoLatin-Light.woff') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
   font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
+  font-weight: 700;
+  src: url('../fonts/spectral-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+/* spectral-700italic - latin */
 @font-face {
-  font-family: 'LatoLatinWebLight';
-  src:
-    url('../fonts/LatoLatin-LightItalic.woff2') format('woff2'),
-    url('../fonts/LatoLatin-LightItalic.woff') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
   font-style: italic;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
+  font-weight: 700;
+  src: url('../fonts/spectral-v15-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+/* spectral-800 - latin */
 @font-face {
-  font-family: 'LatoLatinWebMedium';
-  src:
-    url('../fonts/LatoLatin-Medium.woff2') format('woff2'),
-    url('../fonts/LatoLatin-Medium.woff') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
   font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
+  font-weight: 800;
+  src: url('../fonts/spectral-v15-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+/* spectral-800italic - latin */
 @font-face {
-  font-family: 'LatoLatinWeb';
-  src:
-    url('../fonts/LatoLatin-Regular.woff2') format('woff2'),
-    url('../fonts/LatoLatin-Regular.woff') format('woff');
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: 'LatoLatinWebSemibold';
-  src:
-    url('../fonts/LatoLatin-Semibold.woff2') format('woff2'),
-    url('../fonts/LatoLatin-Semibold.woff') format('woff');
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: 'LatoLatinWebSemibold';
-  src:
-    url('../fonts/LatoLatin-SemiboldItalic.woff2') format('woff2'),
-    url('../fonts/LatoLatin-SemiboldItalic.woff') format('woff');
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Spectral';
   font-style: italic;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: 'LatoLatinWebThin';
-  src:
-    url('../fonts/LatoLatin-Thin.woff2') format('woff2'),
-    url('../fonts/LatoLatin-Thin.woff') format('woff');
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: 'LatoLatinWebThin';
-  src:
-    url('../fonts/LatoLatin-ThinItalic.woff2') format('woff2'),
-    url('../fonts/LatoLatin-ThinItalic.woff') format('woff');
-  font-style: italic;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
+  font-weight: 800;
+  src: url('../fonts/spectral-v15-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 @layer base {
   body {
-    font-family: 'LatoLatinWeb', sans-serif;
+    font-family: 'Spectral', sans-serif;
     counter-reset: sidenote-counter;
   }
 

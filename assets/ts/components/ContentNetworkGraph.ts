@@ -14,7 +14,7 @@ const NETWORK_OPTIONS: Options = {
       }
     },
     font: {
-      face: "'LatoLatinWeb', sans-serif",
+      face: "'Spectral'",
       color: '#0f172a',
       size: 11
     },
@@ -75,13 +75,13 @@ const SPINNER_SVG = `<svg
   </path>
 </svg>`;
 
-const ERROR_SVG = `<svg 
-  xmlns="http://www.w3.org/2000/svg" 
-  fill="none" 
-  stroke="currentColor" 
-  stroke-linecap="round" 
-  stroke-linejoin="round" stroke-width="2" 
-  class="lucide lucide-circle-x h-5 w-5" 
+const ERROR_SVG = `<svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round" stroke-width="2"
+  class="lucide lucide-circle-x h-5 w-5"
   viewBox="0 0 24 24"
   aria-hidden="true"
 >
@@ -89,28 +89,28 @@ const ERROR_SVG = `<svg
   <path d="m15 9-6 6M9 9l6 6"/>
 </svg>`;
 
-const EXPAND_SVG = `<svg 
-  xmlns="http://www.w3.org/2000/svg" 
-  fill="none" 
-  stroke="currentColor" 
-  stroke-linecap="round" 
-  stroke-linejoin="round" 
-  stroke-width="2" 
-  class="lucide lucide-expand h-4 w-4" 
+const EXPAND_SVG = `<svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-expand h-4 w-4"
   viewBox="0 0 24 24"
   aria-hidden="true"
 >
   <path d="m21 21-6-6m6 6v-4.8m0 4.8h-4.8M3 16.2V21m0 0h4.8M3 21l6-6M21 7.8V3m0 0h-4.8M21 3l-6 6M3 7.8V3m0 0h4.8M3 3l6 6"/>
 </svg>`;
 
-const SHRINK_SVG = `<svg 
-  xmlns="http://www.w3.org/2000/svg" 
-  fill="none" 
-  stroke="currentColor" 
-  stroke-linecap="round" 
-  stroke-linejoin="round" 
-  stroke-width="2" 
-  class="lucide lucide-shrink h-4 w-4" 
+const SHRINK_SVG = `<svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-shrink h-4 w-4"
   viewBox="0 0 24 24"
   aria-hidden="true"
 >
